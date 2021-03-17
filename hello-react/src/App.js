@@ -1,26 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
+/* eslint-disable eqeqeq */
+import React from 'react'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const name = '리액트';
+  return <>{name == '리액트' ? (<h1>아니요 뚱인데요?</h1>) : null}</>;
 }
 
 export default App;
