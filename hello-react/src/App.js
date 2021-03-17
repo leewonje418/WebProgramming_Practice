@@ -1,10 +1,10 @@
 /* eslint-disable eqeqeq */
 import React from 'react'
 import './App.css';
+import MyComponent from './MyComponent'
 
-function App() {
-  const name = '리액트';
-  return <>{name == '리액트' ? (<h1>아니요 뚱인데요?</h1>) : null}</>;
+const App = () => {
+  return <MyComponent name='React' favNum={3}>리액트</MyComponent>
 }
 
 export default App;
