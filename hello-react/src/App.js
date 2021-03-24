@@ -1,10 +1,11 @@
 /* eslint-disable eqeqeq */
-import React from 'react'
+import React from 'react';
 import './App.css';
-import MyComponent from './MyComponent'
+import Counter from './Counter';
+import EventClass from './EventClass';
 
 const App = () => {
-  return <MyComponent name='React' favNum={3}>리액트</MyComponent>
+  return <EventClass/>;
 }
 
 export default App;
