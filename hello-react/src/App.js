@@ -1,11 +1,13 @@
 /* eslint-disable eqeqeq */
-import React from 'react';
-import './App.css';
-import Counter from './Counter';
-import EventClass from './EventClass';
+import React, { Component } from 'react';
+import IterationSample from './IterationSample';
 
-const App = () => {
-  return <EventClass/>;
+class App extends Component {
+  render() {
+    return (
+      <IterationSample/>
+    );
+  }
 }
 
 export default App;
